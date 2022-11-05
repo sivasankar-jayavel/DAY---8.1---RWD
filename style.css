@@ -1,0 +1,51 @@
+   .container1 {
+    margin: 10px ;
+    padding:10px 0px;    
+    border: 1px solid rgb(103, 100, 100);
+    justify-content: center; 
+    
+  }
+
+   .star-rating{
+    margin-top: 10px;
+    }
+
+    .star{
+    color: red;
+    }
+
+    .e-box{
+    width:60%;
+    }
+
+    .trow {  
+        background-color: rgb(216, 212, 212);  
+      }
+    
+    td {
+      padding: 4px 8px;
+    }
+
+    table{
+        width: 100%;
+    }
+    
+    #tab-head{
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .comm {
+    
+        width: 99%;
+        height: 70px;
+
+      }     
+    
+ @media screen and (max-width:1400px) {
+      .container1 {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    
+    }
